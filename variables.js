@@ -6,4 +6,5 @@ console.log(name2)
 //should be meaningful
 //can't start with a number(1name)
 //Are case-sensitive
-let firstName, lastName
+let firstName = 'Imam';
+let lastName = 'Hossain';
