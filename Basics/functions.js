@@ -3,8 +3,8 @@
 // }
 // greet()
 
-function greeting(name, lastName) {
+function greetingNothing(name, lastName) {
     console.log('Hello ' + name + ' ' + lastName);
 }
-greeting('John')
-greeting('Cena')
+greetingNothing('John')
+greetingNothing('Cena')
