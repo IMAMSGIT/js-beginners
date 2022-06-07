@@ -8,7 +8,7 @@ const circle={
     },
     isVisible:true,
 
-    draw:function(){
+    draw:function() {
         console.log('draw')
 
     }
