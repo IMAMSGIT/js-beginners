@@ -8,5 +8,5 @@ for (let firstPart in person)
 
 
 const colors = ['red', 'green', 'blue']
-for (let index in colors)
-    console.log(index)
+for (let index1 in colors)
+    console.log(index1)
