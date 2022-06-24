@@ -9,12 +9,18 @@ const audio = {
   //   },
 
   //another solution by binfd method
+  // showTags() {
+  //   this.tags.forEach(
+  //     function (tag) {
+  //       console.log(this.title, tag);
+  //     }.bind(this)
+  //   );
+  // },
+  //from ECMA 6 , this method adopted (best)
   showTags() {
-    this.tags.forEach(
-      function (tag) {
-        console.log(this.title, tag);
-      }.bind(this)
-    );
+    this.tags.forEach((tag) => {
+      console.log(this.title, tag);
+    });
   },
 };
 audio.showTags();
